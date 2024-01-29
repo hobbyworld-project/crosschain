@@ -1,0 +1,24 @@
+{
+  "name": "crosschain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typechain": "hardhat typechain",
+    "chain1": "hardhat node --port 8545 --network hardhat",
+    "chain2": "hardhat node --port 8546 --network hardhat"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.2",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "@primitivefi/hardhat-dodoc": "^0.2.3"
+  }
+}
